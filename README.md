@@ -1,8 +1,9 @@
-###Distillation for Language Model
+### Distillation for Language Model
 
 This repository distills the Transformer-XL model into a simple LSTM model.
 
-Overview
+**Overview**
+---
 
 * `finetune-txl.py` - Finetune pre-trained Transformer-XL model provided by https://github.com/huggingface/pytorch-pretrained-BERT on PTB dataset.
 
@@ -20,10 +21,11 @@ python distill.py --finetuned --augment_train --top_k 3 --distill_loss_scale 0.1
 
 ```
 
-Reference
+**Reference**
+---
 
 * Dai, Zihang, et al. "Transformer-xl: Attentive language models beyond a fixed-length context." arXiv preprint arXiv:1901.02860 (2019).
-* **PyTorch Pretrained BERT**: https://github.com/huggingface/pytorch-pretrained-BERT
-* **Word-level language modeling RNN**: https://github.com/pytorch/examples/tree/master/word_language_model
+* PyTorch Pretrained BERT: https://github.com/huggingface/pytorch-pretrained-BERT
+* Word-level language modeling RNN: https://github.com/pytorch/examples/tree/master/word_language_model
 
 
