@@ -1,6 +1,6 @@
 ### Distillation for Language Model
 
-A simple experiment on distilliing the Transformer-XL model into a LSTM model.
+A simple experiment on distilling the Transformer-XL model into a LSTM model.
 
 **Overview**
 ---
