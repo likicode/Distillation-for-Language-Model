@@ -1,6 +1,6 @@
 ### Distillation for Language Model
 
-This repository distills the Transformer-XL model into a simple LSTM model.
+A simple experiment on distilliing the Transformer-XL model into a LSTM model.
 
 **Overview**
 ---
